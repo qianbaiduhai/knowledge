@@ -2,9 +2,9 @@
 
 ![Tags](https://github.com/f2e-awesome/knowledge/blob/master/img/tags.jpg)
 
-- 更新时间：2018-12-18
+- 更新时间：2020-05-11
 - 难度等级：☆ 为初级，☆☆ 为中级，☆☆☆ 为高级。
-- 标签体系：[开发工具](#开发工具)、[HMTL5](#html5)、[CSS](#css)、[JS](#js)、[主流框架](#主流框架)、[优化](#优化)、[Web服务器端](#web-服务器端)、[源码学习](#源码学习)、[前端类库](#前端类库)、[移动端](#移动端)、[PWA](#pwa)、[WebAssembly](#webassembly)、[小程序](#小程序)、[Canvas](#canvas)、[WebGL](#webgl)、[SVG](#svg)、[Graphql](#graphql)、[模块化编程](#模块化编程)、[算法](#算法)、[排序](#排序)、[加密](#加密)、[数据结构](#数据结构)、[数据库](#数据库)、[包管理](#包管理)、[Python](#python)、[设计模式](#设计模式)、[网络协议](#网络协议)、[函数式编程](#函数式编程)、[DOM](#dom)、[跨域](#跨域)、[事件模型](#事件模型)、[安全](#安全)、[Git](#git)、[前端规范](#前端规范)、[Nginx](#nginx)、[DNS](#dns)、[CDN](#cdn)、[V8 引擎](#v8-引擎)、[Linux](#linux)、[Electron](#electron)、[抓包工具](#抓包工具)、[Hadoop](#Hadoop)、[测试](#测试)、[部署](#部署)、[监控](#监控)、[浏览器](#浏览器)、[数据可视化](#数据可视化)、[前端工程化](#前端工程化)、[物联网](#物联网)、[消息队列](#消息队列)、[开发模式](#开发模式)、[面试](#面试)、[ECMAScript标准](#ecmascript标准)、[前端组织](#前端组织)、[学习网站](#学习网站)、[技术杂谈](#技术杂谈)
+- 标签体系：[开发工具](#开发工具)、[HMTL5](#html5)、[CSS](#css)、[JS](#js)、[主流框架](#主流框架)、[优化](#优化)、[Web服务器端](#web-服务器端)、[Serverless](#Serverless)、[源码学习](#源码学习)、[必学原理](#必学原理)、[前端类库](#前端类库)、[移动端](#移动端)、[PWA](#pwa)、[WebAssembly](#webassembly)、[小程序](#小程序)、[Canvas](#canvas)、[WebGL](#webgl)、[SVG](#svg)、[Graphql](#graphql)、[模块化编程](#模块化编程)、[算法](#算法)、[排序](#排序)、[加密](#加密)、[数据结构](#数据结构)、[数据库](#数据库)、[包管理](#包管理)、[Python](#python)、[设计模式](#设计模式)、[网络协议](#网络协议)、[函数式编程](#函数式编程)、[DOM](#dom)、[跨域](#跨域)、[事件模型](#事件模型)、[安全](#安全)、[Git](#git)、[前端规范](#前端规范)、[Nginx](#nginx)、[DNS](#dns)、[CDN](#cdn)、[V8 引擎](#v8-引擎)、[Linux](#linux)、[Electron](#electron)、[抓包工具](#抓包工具)、[Hadoop](#Hadoop)、[测试](#测试)、[部署](#部署)、[监控](#监控)、[浏览器](#浏览器)、[数据可视化](#数据可视化)、[前端工程化](#前端工程化)、[物联网](#物联网)、[消息队列](#消息队列)、[开发模式](#开发模式)、[微前端](#微前端)、[架构](#架构)、[AI](#AI)、[面试](#面试)、[ECMAScript标准](#ecmascript标准)、[前端组织](#前端组织)、[学习网站](#学习网站)、[技术杂谈](#技术杂谈)
 
 ### 开发工具
 - [Sublime Text](https://www.sublimetext.com/3) ☆☆
@@ -14,9 +14,12 @@
 
 ### HTML5
 - 初级 ☆
-  - 语义化
-  - Audio 和 Video
+  - [语义化](https://www.jianshu.com/p/b226910034f2)
+  - [Audio 和 Video](https://www.w3school.com.cn/tags/html_ref_audio_video_dom.asp)
   - Web Storage
+  - [HTML5 MDN](https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5)
+  - [HTML5 Tricks](https://www.html5tricks.com/category/html5-tutorials)
+  - [HTML5 教程手册](https://www.html.cn/doc/html5/draganddrop/)
 - 中级 ☆☆
   - 离线存储
   - [HTML5 摄像头](http://jartto.wang/2017/11/28/h5-user-media/)
@@ -41,6 +44,7 @@
 
 ### CSS
 - 初级 ☆
+  - [CSS 3 简介](https://www.html.cn/doc/css3/what/)
   - [CSS 实用概要](http://jartto.wang/2018/03/06/outline-of-css/)
   - [CSS 实用 Tips](http://jartto.wang/2017/11/12/f2e-tips/)
   - [CSS 三大特性](http://jartto.wang/2017/02/08/css-features/)
@@ -71,12 +75,14 @@
   - [探究 CSS 解析原理](http://jartto.wang/2017/11/13/Exploring-the-principle-of-CSS-parsing/) 
   - [详谈层合成（composite）](http://jartto.wang/2017/09/29/expand-on-performance-composite/)
   - [CSS Modules 使用详解](https://blog.csdn.net/xiangzhihong8/article/details/53195926)
+  - [Web 技巧 - 动画](https://juejin.im/post/5d2b49f3f265da1bcb4f5bab) ☆☆
 - 扩展
   - [30s CSS](https://atomiks.github.io/30-seconds-of-css/) ☆
   - [新手引导动画的 4 种实现方式](https://juejin.im/post/5bac9bd0e51d450e516296d0)
 
 ### JS
 - 初级 ☆
+  - [JS 标准参考教程](https://www.kancloud.cn/kancloud/javascript-standards-reference/46466)
   - [原型与原型链](https://github.com/mqyqingfeng/Blog/issues/2)
   - [作用域](https://github.com/mqyqingfeng/Blog/issues/3)与[作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
   - [Event Loop](https://juejin.im/post/59e85eebf265da430d571f89)
@@ -95,6 +101,7 @@
   - [浏览器同源政策及其规避方法](http://www.138dish.cn/web/same-origin-policy.html)
 - 中级 ☆☆
   - [JS 模板引擎](http://jartto.wang/2016/09/15/grasp-a-js-template-engine/)
+  - [前端路由跳转基本原理](https://juejin.im/post/5c52da9ee51d45221f242804?utm_source=gold_browser_extension)
   - 垃圾回收
   - JS 内存
     - [JS 内存管理](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)
@@ -117,6 +124,8 @@
     - [TypeScript 官网](https://www.tslang.cn)
     - [深入 TypeScript 的类型系统](https://zhuanlan.zhihu.com/p/38081852)
     - [TypeScript 总体架构](https://github.com/Microsoft/TypeScript/wiki/Architectural-Overview)
+    - [TypeScript 完全手册](https://zhuanlan.zhihu.com/p/83689446?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+    - [如何用 Decorator 装饰你的 Typescript？](https://mp.weixin.qq.com/s/0JTvJJNX4zwE3-Kl6dMvrA)
   - You-Dont-Know-JS
     - [Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)
     - [Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures)
@@ -154,6 +163,7 @@
   - [VUE2](https://cn.vuejs.org/v2/guide/) ☆☆
   - [VUEX](https://vuex.vuejs.org/) ☆☆
   - [Nuxtjs](https://www.sitepoint.com/nuxt-js-universal-vue-js/) ☆
+    - [Nuxtjs 2.0 升级爬坑](http://jartto.wang/2019/04/23/update-nuxt2-0/) ☆
   - [Axios](https://www.jianshu.com/p/df464b26ae58) ☆
   - Vue-Router
     - [Vue-Router 实现原理](https://juejin.im/post/5b10b46df265da6e2a08a724?utm_source=gold_browser_extension) ☆☆☆
@@ -180,16 +190,29 @@
   - [React 16 新特性](https://baijiahao.baidu.com/s?id=1582848543674223747&wfr=spider&for=pc) ☆☆
   - React-Router@4 ☆☆
   - [React 性能优化](http://www.css88.com/react/docs/optimizing-performance.html) ☆☆☆
+  - [21 项优化 React App 性能的技术](https://mp.weixin.qq.com/s/PSYm43GkIR9tZVWpAEWrNA)
+  - [浅谈React性能优化的方向](https://zhuanlan.zhihu.com/p/74229420?utm_source=wechat_session&utm_medium=social&utm_oi=26811677278208&s_r=0)
+  - React Hooks
+    - [30分钟精通 React Hooks](https://juejin.im/post/5be3ea136fb9a049f9121014) ☆☆
+    - [React Hooks-概览](https://juejin.im/post/5c31ccc8f265da6170074785?utm_source=gold_browser_extension) ☆☆
   - [UmiJS](http://jartto.wang/2018/05/24/taste-of-umi/) ☆☆
   - Next.js ☆☆
     - [Next.js 使用指南1－基本规则](http://jartto.wang/2018/05/27/nextjs-1/)
     - [Next.js 使用指南2－路由与加载](http://jartto.wang/2018/06/01/nextjs-2/)
     - [Next.js 使用指南3－高级配置](http://jartto.wang/2018/06/08/nextjs-3/)
   - [Ts + React + Mobx 实现移动端浏览器控制台](https://juejin.im/post/5bf278295188252e89668ed2?utm_source=gold_browser_extension#comment)
+  - [阿里飞冰组件库](https://alibaba.github.io/ice/) ☆☆
+  - 单测
+    - [React单元测试策略及落地](https://insights.thoughtworks.cn/react-strategies-for-unit-testing/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+    - [使用 Jest 和 Enzyme 测试 React 组件](https://mp.weixin.qq.com/s/isZLVenQrAUzA77O4TYVfQ)
+  - 应用
+    - [构建大型React应用程序的最佳实践](https://mp.weixin.qq.com/s/XspWR3e7Jm38Q-HJm2Ntvw)
 
 ### 优化
 - 初级 ☆
-  - 合并
+  - 图片资源
+    - [WebP 在项目中的实践](https://www.jianshu.com/p/73ca9e8b986a)
+  - 代码合并
   - 压缩
   - 混淆
   - Css sprits
@@ -218,11 +241,14 @@
       - Etag / If-None-Match
     - Nginx 缓存
     - [关键路径渲染优化](https://juejin.im/entry/5b16a05fe51d4506b01106d9)
+    - [关键渲染路径](https://juejin.im/post/5c3333036fb9a049f1545d27)
+    - [前端性能优化——关键渲染路径](https://segmentfault.com/a/1190000013767948) 👍
     - Storage
     - [indexedDB](https://blog.csdn.net/inter_peng/article/details/49133081)
     - [浏览器存储之争](http://jartto.wang/2018/12/02/indexeddb/)
     - [Service Worker](https://www.jianshu.com/p/62338c038c42)
     - [从性能优化的角度看缓存](https://github.com/amandakelake/blog/issues/43)
+    - [聊一聊浏览器缓存机制](http://jartto.wang/2019/02/14/web-cache/)
     - [浏览器缓存机制：强缓存、协商缓存](https://github.com/amandakelake/blog/issues/41)
     - [数据存储：cookie、Storage、indexedDB](https://github.com/amandakelake/blog/issues/13)
     - [离线应用缓存：App Cache => Manifest](https://github.com/amandakelake/blog/issues/15)
@@ -234,10 +260,22 @@
   - [网站性能优化实战——从 12.67s 到 1.06s 的故事](https://juejin.im/post/5b0b7d74518825158e173a0c) ☆
   - [用 100 行代码提升 10 倍的性能](https://juejin.im/post/5bec223f5188250c102116b5) ☆☆
   - [美团网页首帧优化实践](https://juejin.im/post/5bee7dd4e51d451f5b54cbb4) ☆☆
+  - [前端性能提升秘笈！](http://rdc.hundsun.com/portal/article/942.html) ☆☆
+  - [网站优化实战](http://jartto.wang/2019/02/16/web-optimization/) ☆☆☆
+  - [百度APP-Android H5首屏优化实践](https://mp.weixin.qq.com/s/AqQgDB-0dUp2ScLkqxbLZg) ☆☆☆
+  - [VasSonic，让你的 H5 页面首屏秒开](https://my.oschina.net/u/3447988/blog/1512025) ☆☆☆
+  - [Lazy Loading Video Based on Connection Speed](https://medium.com/dailyjs/lazy-loading-video-based-on-connection-speed-e2de086f9095) ☆☆☆
+  - [WebView性能、体验分析与优化](https://tech.meituan.com/2017/06/09/webviewperf.html) ☆☆ 
+  - [移动 H5 首屏秒开优化方案探讨](http://blog.cnbang.net/tech/3477/) ☆☆
+  - [手机QQ Hybrid 的架构如何优化演进](https://mp.weixin.qq.com/s/evzDnTsHrAr2b9jcevwBzA) ☆☆☆
+  - [高性能渲染十万条数据(虚拟列表)](https://juejin.im/post/5db684ddf265da4d495c40e5?utm_source=gold_browser_extension) ☆☆
+  - [网站性能指标 - FMP](http://jartto.wang/2020/03/15/about-web-fmp/) ☆☆
+  - [聚焦 Web 性能指标 TTI](http://jartto.wang/2020/03/29/web-tti/) ☆☆
 - 工具
   - [YSlow](http://yslow.org)
   - Performance
   - [Google PageSpeed](https://developers.google.com/speed/pagespeed/)
+  - LightHouse
 
 ### Web 服务器端
 - [Nodejs](https://nodejs.org/en/)
@@ -286,6 +324,14 @@
 - [什么是微服务](https://blog.csdn.net/wuxiaobingandbob/article/details/78642020?locationNum=1&fps=1)
 - [服务化架构的演进与实践](https://blog.csdn.net/liubenlong007/article/details/54692241)☆☆
 - [服务化实战之 dubbo、dubbox、motan、thrift、grpc等RPC框架比较及选型](https://blog.csdn.net/liubenlong007/article/details/54692241)☆☆
+- [Nodejs 最佳实践](https://github.com/i0natan/nodebestpractices?utm_source=gold_browser_extension) ☆☆☆
+- [技术栈：为什么 Node 是前端团队的核心技术栈](https://mp.weixin.qq.com/s/dA6M1t957G-nZ-Ir80L1kA) ☆☆☆
+
+### Serverless
+- [Serverless 入门](https://mp.weixin.qq.com/s?__biz=MzA4ODUzNTE2Nw==&mid=2451046912&idx=1&sn=fc7f97c007e325f553e158fee703178f&chksm=87c41b10b0b39206bcc9cff2332fb2e5003ebd1b50d12ccd72585ffc256e98cac7ea878f064c&mpshare=1&scene=1&srcid=&sharer_sharetime=1587861292401&sharer_shareid=93284882dc8dd6a2672e2f228c47df4e#rd) ☆☆
+- [Serverless 掀起新的前端技术变革](https://github.com/nodejh/nodejh.github.io/issues/49) ☆☆☆
+- [当 SSR 遇上 Serverless，轻松实现页面瞬开](https://fed.taobao.org/blog/taofed/do71ct/rax-ssr-serverless-quicker) ☆☆
+
 
 
 ### 源码学习
@@ -304,6 +350,9 @@
 - [Vue.js 源码学习笔记](http://jiongks.name/blog/vue-code-review/) ☆☆☆
 - [高效阅读 Github 源代码](https://juejin.im/entry/5ae731f6f265da0b7e0c0ccb?utm_source=gold_browser_extension) ☆
 - [从头实现一个 koa 框架](https://zhuanlan.zhihu.com/p/35040744) ☆☆☆
+
+### 必学原理
+- [AST 与前端工程化实战](https://mp.weixin.qq.com/s/frZq6DBjK7TYV3hiqSUj3w) ☆☆
 
 ### 前端类库
 - JS 类库
@@ -350,6 +399,10 @@
 - [移动端 Touchend 事件不触发解决方案](http://jartto.wang/2015/06/25/solutions-to-touchend-on-mobile/) ☆
 - [移动Web UI库（H5框架）有哪些](https://blog.csdn.net/u013778905/article/details/78632650) ☆
 - [H5 移动调试全攻略](http://jartto.wang/2018/11/01/mobile-debug/) ☆☆
+- Flutter
+  - [Awesome-Flutter](https://github.com/fluttercnclub/awesome-fluttercn) ☆
+  - [闲鱼Flutter互动引擎系列](https://mp.weixin.qq.com/s/oa-XUzWhhsz37Mj-Y6WkzA) ☆☆
+  - [深入了解 Flutter 的高性能图形渲染](https://mp.weixin.qq.com/s/RNhdYtoQ8RQcjIXJReGZWA) ☆☆☆
 
 ### PWA
 - [官网](https://developers.google.com/web/progressive-web-apps/) ☆☆
@@ -408,6 +461,14 @@
 ### 算法
 - [算法练习](https://leetcode-cn.com/problemset/all/) ☆☆
 - [JavaScript 算法与数据结构](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md) ☆☆☆
+- 算法入门 ☆☆
+  - [算法图解1 - 二分查找和大O表示法](http://jartto.wang/2018/11/22/algorithm1/)
+  - [算法图解2 - 数组和链表](http://jartto.wang/2018/11/25/algorithm2/)
+  - [算法图解3 - 递归，快排](http://jartto.wang/2018/11/26/algorithm3/)
+  - [算法图解4 - 散列表](http://jartto.wang/2018/11/27/algorithm4/)
+  - [算法图解5 - 图和广度优先搜索](http://jartto.wang/2018/11/28/algorithm5/)
+  - [算法图解6 - 狄克斯特拉算法与贪婪算法](http://jartto.wang/2018/11/29/algorithm6/)
+  - [算法图解7 - 动态规划](http://jartto.wang/2018/11/29/algorithm7/)
 - 贪心算法
 - 动态规划
 - 搜索
@@ -416,6 +477,7 @@
 - 数学
 - 大数问题
 - 矩阵计算
+- [十大经典排序算法动画](https://mp.weixin.qq.com/s/giubE_Jo1NhIqTteeOmj7g)
 
 ### 排序
 - 交换排序
@@ -649,13 +711,16 @@
 - [Nginx](https://github.com/nginx/nginx) ☆☆☆
 - [Nginx 解决跨域问题](http://www.nginx.cn/4592.html) ☆
 - [关于负载均衡的一切](https://mp.weixin.qq.com/s/xvozZjmn-CvmQMAEAyDc3w) ☆☆
+- [负载均衡的算法](https://mp.weixin.qq.com/s/fkYnkT6PW0I2MS2d2Nh1jg) ☆☆
 
 ### DNS
+- [DNS 缓存中毒](https://www.toutiao.com/a6652593929738781195/?tt_from=weixin&utm_campaign=client_share&wxshare_count=1&timestamp=1548950293&app=news_article&utm_source=weixin&iid=59860639007&utm_medium=toutiao_ios&group_id=6652593929738781195)
 - [例解 DNS 递归/迭代名称解析原理](http://blog.chinaunix.net/uid-10659021-id-3903144.html) ☆☆☆
 - [浏览器输入网址后台是如何运作的](http://www.chinaz.com/web/2013/0228/293980.shtml) ☆☆
 
 ### CDN
 - [什么是 CDN？](https://www.zhihu.com/question/37353035) ☆☆
+- [CDN 带来这些性能优化](https://juejin.im/post/5d1385b25188253dc975b577?utm_source=gold_browser_extension) ☆☆☆
 
 ### V8 引擎
 - [Google V8 引擎运用了哪些优秀的算法？](https://www.zhihu.com/question/22498967) ☆☆☆
@@ -709,7 +774,7 @@
 
 ### 测试
 - 单元测试
-  - Jest☆☆☆
+  - Jest ☆☆☆
   - [Jasmine](https://jasmine.github.io/) ☆☆☆
   - [mocha](https://segmentfault.com/a/1190000011362879) ☆☆☆
   - [chai](http://www.chaijs.com/api/assert/) ☆☆☆
@@ -720,8 +785,11 @@
   - [selenium_webdriver](https://www.yiibai.com/selenium/selenium_webdriver.html) ☆☆
   - [Appium移动自动化测试](https://www.cnblogs.com/fnng/p/4540731.html) ☆☆
   - [Appium移动自动化测试](https://www.cnblogs.com/fnng/p/4540731.html) ☆☆
-  - [UI自动化测试](https://github.com/AirtestProject/Airtest) ☆☆☆
+  - [UI 自动化测试](https://github.com/AirtestProject/Airtest) ☆☆☆
     >网易UI自动化测试框架，开源的，结合AI，自动更新测试用例、自我学习和需求沉淀。智能测试方向！！！！
+- 应用
+  - [React单元测试策略及落地](https://insights.thoughtworks.cn/react-strategies-for-unit-testing/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+  - [使用 Jest 和 Enzyme 测试 React 组件](https://mp.weixin.qq.com/s/isZLVenQrAUzA77O4TYVfQ)
 
 ### 部署
 - Docker
@@ -732,6 +800,7 @@
   - [精简 Docker 镜像的五种通用方法](https://mp.weixin.qq.com/s/tMVK62zggVwaqfPsiYGaBg)
 - [什么是 Kubernetes ](https://mp.weixin.qq.com/s/NqBb4FG5cVkoUkqQu7XOlg) ☆☆
 - [Jenkins](https://jenkins.io) ☆☆☆
+- [前端AB实验设计思路与实现原理](https://fed.taobao.org/blog/taofed/do71ct/frontend-ab-test) ☆☆☆
 
 ### 监控
 - [APM](https://github.com/f2e-awesome/monitoring/blob/master/README.md) ☆☆
@@ -754,6 +823,7 @@
 - [渲染进程的内部工作原理](https://developers.google.com/web/updates/2018/09/inside-browser-part3) ☆☆☆
 - [Compositor 是如何来提高交互性能的？](https://developers.google.com/web/updates/2018/09/inside-browser-part4) ☆☆☆
 - [浏览器内核渲染：重建引擎](https://juejin.im/post/5bbaa7da6fb9a05d3761aafe)
+- [Chrome Devtools](https://medium.com/@tomsu/devtools-tips-day-1-the-console-dollars-3aa0d93e923c) ☆☆☆
 
 ### 数据可视化
 - 图表 ☆☆
@@ -794,8 +864,10 @@
   - [Babel 插件手册](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)
   - [babel-runtime 使用与性能优化](https://juejin.im/entry/5b108f4c6fb9a01e5868ba3d?utm_source=gold_browser_extension)
   - [babel-polyfill 使用与性能优化](https://juejin.im/entry/5b108f866fb9a01e49293627?utm_source=gold_browser_extension)
-- [什么是 Kubernetes？](https://mp.weixin.qq.com/s/NqBb4FG5cVkoUkqQu7XOlg)
-
+- [什么是 Kubernetes？](https://mp.weixin.qq.com/s/NqBb4FG5cVkoUkqQu7XOlg) ☆☆
+- [有赞前端质量保障体系](https://juejin.im/post/5d24096ee51d454d1d6285a1?utm_source=gold_browser_extension) ☆☆☆
+- [前端工程实践之可视化搭建系统](https://www.zoo.team/article/luban-one?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io) ☆☆
+- [前端项目代码质量保障秘藉](https://mp.weixin.qq.com/s/djEyX7zxl51PcYcmP0zfyQ) ☆
 
 ### 物联网
 - [ruff](https://baike.baidu.com/item/ruff/19726288?fr=aladdin) ☆☆☆
@@ -821,6 +893,36 @@
 - [DevOps 简介](http://jartto.wang/2018/11/30/about-devops/) ☆
 - [猪八戒网的 DevOps 进化论](https://mp.weixin.qq.com/s/I7hRbZrw1QsS0UP4RZIHOw) ☆☆
 
+### 微前端
+- [了解什么是微前端](https://mp.weixin.qq.com/s/kZ3GMg0vXQwof8SX8u2EuA) ☆
+- [为什么大公司一定要使用微服务？](https://mp.weixin.qq.com/s/-lxNpu89A9uN_a8f2MiKMw) ☆
+- [微前端如何落地？](https://juejin.im/post/5d1d8d426fb9a07efe2dda40) ☆☆☆
+- [用微前端的方式搭建类单页应用](https://tech.meituan.com/2018/09/06/fe-tiny-spa.html) ☆☆
+- [Bifrost微前端框架及其在美团闪购中的实践](https://mp.weixin.qq.com/s/GgVo5KyZPlEsEeICcPyuLA) ☆☆
+- [张克军：微前端架构体系](https://mp.weixin.qq.com/s/OEfRPKuPmBKvJdD_zMgFuQ) ☆☆☆
+
+
+
+### 架构
+- [前端架构师入门技能图谱](https://mp.weixin.qq.com/s/fYC1VHibhOoxBpm8NShGWQ) ☆
+- [架构师成神路线图](https://mp.weixin.qq.com/s/X_F_8OfbBDHWcUTPY2THrA) ☆☆
+- [成为一名架构师得学习哪些知识？](https://mp.weixin.qq.com/s?__biz=MzUyNDkzNzczNQ==&mid=2247485986&idx=1&sn=a4fff71f0138861975865ecd97981c7c&chksm=fa24f54acd537c5c00cca8458698c801d9a7ca62e2feb1044a1424e3b8c8f9a51dd0540f7f13&token=93419027&lang=zh_CN#rd) ☆☆
+- [如何画好架构图？](https://mp.weixin.qq.com/s/cqC6djHHjeFzCpFPlJGhxQ) ☆☆
+- [Node.js 微服务实践](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651556001&idx=1&sn=601d58dc247d2f9c6f239ed8d950b540&chksm=80255f60b752d676860f98ae5523f018800ed91c24dd19afa1004a97a7bc114df02ca84498ca&xtrack=1&scene=0&subscene=131&clicktime=1552693183&ascene=7&devicetype=android-26&version=2700033b&nettype=cmnet&abtest_cookie=BAABAAoACwASABMABQAmlx4AVpkeAMyZHgDamR4A3JkeAAAA&lang=zh_CN&pass_ticket=58OgcYwPpZPMoZMSeUS45Kh9d%2Fe0tCefEY4WSDl%2BzJM%3D&wx_header=1) ☆☆☆
+- [如何设计微服务](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651014354&idx=2&sn=9a356f184842908ab5004bdcfef1caac&chksm=bdbebc818ac935977deb94e3f139ce12c17afc4613d5a2535ede91470d9637471c8317c53f4e&mpshare=1&scene=1&srcid=0315aRwo0BPnixJWFnXKlR80#rd) ☆☆☆
+- [各大互联网公司架构演进之路汇总](https://mp.weixin.qq.com/s/K531MIiOWIAvy4sFcbajrQ) ☆☆☆
+- [开发十年，我是如何成长为一名优秀的架构师](https://mp.weixin.qq.com/s/8o4OwgdGwv4g5vUVj-1vfw) ☆☆☆
+- [淘宝从几百到千万级并发的十四次架构演进之路](https://mp.weixin.qq.com/s/a1xUMOOfgCMzcngQ9xNCGw) ☆☆☆
+- [设计图都不会画，还想做架构师？](https://maimai.cn/article/detail?fid=1063405301&efid=yh3ExpigfgCbJagBxj6dXw) ☆☆
+- [12306的技术架构](https://mp.weixin.qq.com/s/Ty49SAs0hxpy_fbwPHBflA) ☆☆☆
+
+
+### AI
+- [机器学习模型一览：监督型、半监督型和无监督型](https://mp.weixin.qq.com/s/NQpB_jTl43ft7O02_EXHkw) ☆☆☆
+- [如何在 1 秒内做到大数据精准去重？](https://mp.weixin.qq.com/s/XzVT6K3B3XfgnmTVSrchiA) ☆☆☆
+- [大数据学习资源(Awesome Big Data)](https://mp.weixin.qq.com/s/wnvIADv7GXa6fFjpnzjzXQ) ☆☆☆
+- [Tensorflow.js生态](https://mp.weixin.qq.com/s/LQ8mpNc5_8pU0y9LWfQXjw) ☆☆
+
 ### 面试
 - [30s 面试](https://github.com/fejes713/30-seconds-of-interviews#table-of-contents) ☆
 - [面试精选之 http 缓存](https://juejin.im/post/5b3c87386fb9a04f9a5cb037#comment) ☆☆
@@ -828,6 +930,10 @@
 - [2019 年前端面试都聊啥](https://juejin.im/post/5bf5610be51d452a1353b08d?utm_source=gold_browser_extension) ☆☆
 - [BAT 面试总结](https://juejin.im/post/5befeb5051882511a8527dbe) ☆☆
 - [JavaScript 深入之 bind 的模拟实现](https://juejin.im/post/59093b1fa0bb9f006517b906) ☆☆
+- [前端面试官的套路，你懂吗？](http://jartto.wang/2019/01/06/f2e-interview/) ☆☆
+- [前端 100 问](https://juejin.im/post/5d23e750f265da1b855c7bbe)
+- [一个 TCP 连接上面能发多少个 HTTP 请求](https://www.toutiao.com/a6706021767074284043/?tt_from=weixin&utm_campaign=client_share&wxshare_count=1&timestamp=1561608618&app=news_article&utm_source=weixin&utm_medium=toutiao_ios&req_id=20190627121018010027057145257B9C2&group_id=6706021767074284043)
+- [彻底弄懂前端路由](https://juejin.im/post/5d2d19ccf265da1b7f29b05f?utm_source=gold_browser_extension)
     
 
 ### ECMAScript标准
@@ -843,6 +949,7 @@
 - [京东凹凸实验室](https://aotu.io/index.html)
 - [蚂蚁金服·数据体验技术团队](https://juejin.im/user/59659aff5188250cf956e6dd/posts)
 - [前端精读周刊](https://github.com/dt-fe/weekly)
+- [淘系前端团队](https://tophub.today/n/x9ozQE6eXb)
 
 
 ### 学习网站
@@ -879,6 +986,8 @@
   >从 采集、数据处理、分析、报警 4 个维度进一步阐述如何把前端监控做到极致
 - [设计一个百万级的消息推送系统](https://juejin.im/post/5ba97ff95188255c9e02d3e3) ☆☆☆
   >百万连接其实只是一个形容词，更多的是想表达如何来实现一个分布式的方案，可以灵活的水平拓展从而能支持更多的连接。
+- [蚂蚁金服核心技术：百亿特征实时推荐算法揭秘](https://mp.weixin.qq.com/s/6h9MeBs89hTtWsYSZ4pZ5g)
+  >文章提出一整套创新算法与架构，通过对TensorFlow底层的弹性改造，解决了在线学习的弹性特征伸缩和稳定性问题，并以GroupLasso和特征在线频次过滤等自研算法优化了模型稀疏性
 
 
 
